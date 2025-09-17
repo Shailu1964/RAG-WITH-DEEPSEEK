@@ -85,6 +85,7 @@ To run this project locally, please follow these steps:
 5.  The AI Lawyer Chatbot will provide a context-aware answer based on the information in the document.
 
 ## Project Structure
+```
 .
 ├── .env                  # Environment variables (Groq API key)
 ├── frontend.py           # Main Streamlit application file
@@ -93,6 +94,7 @@ To run this project locally, please follow these steps:
 ├── vector_database.py    # Functions for vector database management
 ├── pdfs/                 # Directory to store uploaded PDFs
 └── vectorstore/          # Directory for the FAISS vector database
+```
 ## Acknowledgements
 
 This project was developed as a practical implementation of Retrieval-Augmented Generation with modern AI tools and technologies. Special thanks to the developers of Streamlit, LangChain, Groq, and Deepseek for their powerful and accessible platforms.
